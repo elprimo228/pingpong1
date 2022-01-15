@@ -48,8 +48,8 @@ ball = GameSprite('nigger.jpg', 200, 200, 4, 50, 50)
  
 font.init()
 font = font.Font(None, 35)
-lose1 = font.render('PLAYER 1 LOSE!', True, (180, 0, 0))
-lose2 = font.render('PLAYER 2 LOSE!', True, (180, 0, 0))
+lose1 = font.render('ПОПУСК!', True, (250, 250, 250))
+lose2 = font.render('СЛИТ!', True, (250, 250, 250))
  
 speed_x = 3
 speed_y = 3
